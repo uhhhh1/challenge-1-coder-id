@@ -3,9 +3,11 @@
     display: flex;
     flex-direction:column;
     margin: auto;
-    padding:4%;
+    padding:2%;
     background-color: rgb(211, 211, 96);
     padding-top: 0%;
+    border-radius: 25px;
+    box-shadow: 8px 3px 5px rgb(95, 86, 0);
 }
 .card:hover{
     background-color: rgb(252, 216, 55);
@@ -13,11 +15,18 @@
 .card-title{
     font-family: cursive;
     text-align: center;
+    text-shadow: 3px 2px 2px rgb(143, 119, 69);
 }
 .card-body:hover{
     background-color: rgb(235, 150, 80);
-    color: black;
-    cursor: pointer;
+    color: rgb(148, 54, 0);
+    cursor:default;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    text-shadow:2px 2px rgb(255, 123, 0);
+
   
 }
 .card-body{
@@ -25,4 +34,5 @@
     flex-direction: column;
     padding: auto;
     font-family: cursive;
+    text-align: center;
 }
